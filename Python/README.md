@@ -9,13 +9,16 @@ https://www.python.org/downloads/release/python-368/
 Step 1:
     Choose your installer: Scroll down until you see a section called "Files".
     Locate what type of system you have.
-    NOTE: 
+    
     Mac(OSX) - look at description for your version. You can compare this version by clicking the apple button on the top left corner of your screen and click "About This Mac" The version should be near the bottom.
+    
     Windows - use "Windows x86-64 executable installer" and follow the instructions.
 
 Step 2:
     Make sure you can access your python. Open a terminal.
+    
     Mac - /Applications/Utilities/Terminal.app
+    
     Windows - C:\Windows\System32\cmd.exe
 
 Step 3:

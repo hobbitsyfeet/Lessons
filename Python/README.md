@@ -53,3 +53,5 @@ Step 3:
     Now quit and start the terminal app again. The python commands mentioned at the beginning of Step 3: should be working now.
 
 Let's get started! Follow the tutorials in each folder listed.
+
+You can download this repository by hitting the Green "Clone" or download ZIP. Unzip it and get going!

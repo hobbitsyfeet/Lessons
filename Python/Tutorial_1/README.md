@@ -1,8 +1,7 @@
 HELLO WORLD. The starting of most programming languages. Here, we will execute some basic commands and explore the syntax of python.
-
-
-    #Here we will end the "Hello World" Tutorial.
-
+    
+    #HOW TO RUN Hello_World.py
+    
     #Let's see this code in action! Either copy this file, or entire contents and try to execute it.
     #We can do this by using the python comand we installed earlier.
 

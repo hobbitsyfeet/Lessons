@@ -104,7 +104,6 @@ class personal_list(): #<- This parameter passes in things you INHERIT from,
                     if low_value == None:
                         low_value = value
                         high_value = value
-                        print("Assigning Value")
 
                     elif value < low_value:
                         low_value = value
@@ -147,6 +146,16 @@ if __name__ == "__main__":
     new_list.assign_attributes() #<- Functions always need these parenthesis
 
     print(new_list.list) #While variables do not use parenthesis.
-    print(new_list.lowest_value)
+    print("List lowest value:", new_list.lowest_value)
 
+    odd_list = personal_list([1,3,5,7,9])
+    even_list = personal_list([2,4,6,8,10])
+
+    print("Even list highest value:", even_list.highest_value)
+    print("Odd list highest value:", odd_list.highest_value)
+
+    #It's handy to note that strings compare in alphabhetical order! by default!
+    list_of_strings = personal_list(["HELLLO", "THERE", "GOOD", "Bye"])
+    print("Lowest value in list of strings:", list_of_strings.highest_value)
+    print("Highest value in strings:", list_of_strings.lowest_value)
     #Python has no such thing as private or public methods and attributes li

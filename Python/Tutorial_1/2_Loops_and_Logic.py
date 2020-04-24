@@ -171,7 +171,4 @@ if __name__ == "__main__":
     print("I belive this is it for loops and logic! It's a simple introduction but it's enough to get you going!")
     print("Bye for now!")
 
-    #return is what happens at the end of a function
-    #return is the value that the function is equal to at the end. Right now, we are returning None
-    # You can return any value or object! Let's learn about this next lesson.
-    return
+ 

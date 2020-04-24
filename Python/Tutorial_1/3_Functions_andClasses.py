@@ -33,6 +33,7 @@ def add(first_num, second_num):
     #when we pass in variables, these exist only within the scope of the function.
     #And these variables, like many others are named to help the reader understand.
 
+    #return is the value that the function is equal to at the end. It exsits the function
     return first_num + second_num
 
 def remove_chars(string, char_to_filter):
@@ -86,7 +87,8 @@ class personal_list(): #<- This parameter passes in things you INHERIT from,
         It will check and assign things accordingly.
         '''
         #Notice we pass in self. This is basically passing everything we defined in __init__ to the function
-        if self.list is not None:
+        
+        if self.list is not None and len(self.list) > 0:
             self.first_value = self.list[0] #set it to  value at fist index
             self.last_value = self.list[-1] #Set it to value at last index
 
@@ -137,12 +139,14 @@ if __name__ == "__main__":
 
     # Create a personal_list structure!
     new_list = personal_list()
+    #we can access the self variables and functions using the dot operator.
+    #we access new_list's self.list by new_list.list
     new_list.list = [8, 3, 1, 12, 11, 0]
 
     #Let's assing the highest and lowest values
-    new_list.assign_attributes()
+    new_list.assign_attributes() #<- Functions always need these parenthesis
 
-    print(new_list.list)
+    print(new_list.list) #While variables do not use parenthesis.
     print(new_list.lowest_value)
 
     #Python has no such thing as private or public methods and attributes li

@@ -77,6 +77,10 @@ if __name__ == "__main__":
     string = "A string of letters!"
     char = string[0] #Which is also a string object in python! There's no real difference!
 
+    #None!
+    nothing = None #This is empty. Equivelant to NULL in other languages, it has no type. It's Undefined.
+
+
     #Lists! This will get a bit complecated, so read through my code, and GOOOGLE YOUR QUESTIONS!
     print("LIST \n") #\n is a NEW LINE character. It acts like ENTER would in any other text editor!
     a_list = []
@@ -144,6 +148,20 @@ if __name__ == "__main__":
     print(i_am["You"]["Age"]) #print Your age
     print(i_am["No One"]["Healthy"]) #Prints "What's that"
 
+    
+    #Sets!
+    a_set = set([1,2,3,4])
+    b_set = set([3,4,5])
+    
+    
+
+    print(a_set in b_set) #should print False
+    print(b_set in a_set) #should print False
+
+    print (a_set not in b_set) #should print True
+    print(b_set not in a_set) #should be True
+
+    #Notice how sets can be useful? Look up set theory for more!
 
     #Here we will end the "Hello World" Tutorial.
 

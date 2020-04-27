@@ -27,3 +27,6 @@ Windows - './env/Source/activate'
 
 You should see (env) before your input in your terminal, this is how you know you've done this properly.
 
+To install the packages used for these tutorials, type 'python3 -m pip install -r requirments.txt'
+
+This is just a simple list of packages, exactly how you would install them individually with pip, but it recursively goes through and installs them one by one. This is a handy way to install dependencies.

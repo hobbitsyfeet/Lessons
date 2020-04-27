@@ -61,6 +61,8 @@ if __name__ == "__main__":
     multiply = number_1 * number_2  # = 2
     divide = number_1 * number_2    # = 0.5
     power = number_2 ** number_2    # = 4
+    mod = number_1 % 2 # This should be 1. If the number is even (mod 2), it will be 0, else 1.
+    #Mod is basically the remainder of long division. 3/2 is 1(*2) remainder 1
 
     #Extra math syntax
     add += 1 #adds 1 to itself
@@ -153,6 +155,13 @@ if __name__ == "__main__":
     a_set = set([1,2,3,4])
     b_set = set([3,4,5])
     
+    #Tuple!
+    # A Tuple is just an n-sized pair! a pair is variables, but a tuple is a pair of any size!
+    example_tuple = (1,2,3,4,5)
+    example_tuple = tuple(1,2,3,4,5) #These are the same!
+
+    #a list of tuples
+    tuple_list = [(1,2), (1,2), (1,2)] #This can also be a list of 2D points!
     
 
     print(a_set in b_set) #should print False

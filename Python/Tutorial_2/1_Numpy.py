@@ -1,3 +1,10 @@
+"""
+1_Numpy.py
+
+Author: Justin Petluk
+Date: April 26, 2020
+
+"""
 '''
 We will get into looking at Numpy. You can look at it here https://numpy.org/devdocs/user/quickstart.html
 '''

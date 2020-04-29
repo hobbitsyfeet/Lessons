@@ -1,5 +1,5 @@
 """
-Loops.py
+2_Loops_and_logic.py
 
 Author: Justin Petluk
 Date: April 19, 2020

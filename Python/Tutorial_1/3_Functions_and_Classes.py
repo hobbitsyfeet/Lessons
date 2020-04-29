@@ -1,3 +1,10 @@
+"""
+3_Functions.py
+
+Author: Justin Petluk
+Date: April 24, 2020
+
+"""
 '''
 We've seen functions before. Things like print() and int()
 

@@ -1,3 +1,10 @@
+"""
+2_Pandsas.py
+
+Author: Justin Petluk
+Date: April 28, 2020
+
+"""
 '''
 Pandas is a package that provides spreadsheet-like methods in python.  https://pandas.pydata.org/
 
